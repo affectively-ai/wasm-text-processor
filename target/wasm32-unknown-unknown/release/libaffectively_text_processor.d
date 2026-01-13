@@ -1,0 +1,1 @@
+E:\emotions\open-source\wasm-text-processor\target\wasm32-unknown-unknown\release\libaffectively_text_processor.rlib: E:\emotions\open-source\wasm-text-processor\src\entity_extraction.rs E:\emotions\open-source\wasm-text-processor\src\lib.rs E:\emotions\open-source\wasm-text-processor\src\pattern_matching.rs E:\emotions\open-source\wasm-text-processor\src\scoring.rs
