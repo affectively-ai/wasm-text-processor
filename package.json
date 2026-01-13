@@ -1,0 +1,37 @@
+{
+    "name": "@affectively/wasm-text-processor",
+    "version": "1.0.0",
+    "description": "High-performance WebAssembly text processing - pattern matching, entity extraction, and scoring.",
+    "main": "pkg/wasm_text_processor.js",
+    "types": "pkg/wasm_text_processor.d.ts",
+    "files": [
+        "pkg",
+        "src",
+        "Cargo.toml",
+        "LICENSE",
+        "README.md"
+    ],
+    "scripts": {
+        "build": "wasm-pack build --target web --out-dir pkg",
+        "build:node": "wasm-pack build --target nodejs --out-dir pkg-node",
+        "test": "cargo test"
+    },
+    "keywords": [
+        "wasm",
+        "webassembly",
+        "text",
+        "nlp",
+        "pattern-matching",
+        "entity-extraction",
+        "rust"
+    ],
+    "author": "AFFECTIVELY <opensource@affectively.app>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/affectively-ai/wasm-text-processor.git"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
